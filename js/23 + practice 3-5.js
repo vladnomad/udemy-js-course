@@ -14,7 +14,7 @@ for (let i = 0; i < 3; i++) {
 // *****
 // ******
 
-let result ="";
+let result = "";
 const length = 7;
 
 for (let i = 1; i < length; i++) {

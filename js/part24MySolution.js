@@ -1,3 +1,5 @@
+"use strict";
+
 const numberOfMovies = +prompt("How many movies have you watched?", "");
 
 if (numberOfMovies == null, numberOfMovies.length == 0, numberOfMovies == 0) {
