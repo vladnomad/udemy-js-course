@@ -35,7 +35,7 @@ const personalMovieDB = {
 
 function rememberMyMovies() {
     for (let i = 0; i < numberOfMovies; i++) {
-        const a = prompt("What is the name of the movie?", "");
+        const a = prompt("What is the name of the movie?", "").trim();
         if (a.length < 1 && a.length > 50) {
             alert("The name of the movie should be from 1 to 50 characters long. Please try again.");
             i--; continue;
