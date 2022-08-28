@@ -18,11 +18,22 @@ function reverse(str) {
 
 reverse(someString);
 
-// Exercise 2 -- WORK IN PROGRESS
+// Exercise 2
 
-const baseCurrencies = ['USD', 'EUR'];
-const additionalCurrencies = ['UAH', 'RUB', 'CNY'];
+const baseCurrencies = ['USD', 'EUR'],
+      additionalCurrencies = ['UAH', 'RUB', 'CNY'];
 
 function availableCurr(arr, missingCurr) {
+    if (arr.length === 0) {
+        return "Нет доступных валют";
+    }
 
+    let result = `Доступные валюты:\n`;
+    arr = arr.filter(element => element !== missingCurr);
+
+    for (let i = 0; i < arr.length; i++) {
+        result += `${arr[i]}\n`;
+    }
+    
+    return result;
 }
