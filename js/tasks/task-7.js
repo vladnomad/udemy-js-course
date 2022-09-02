@@ -15,9 +15,9 @@ calculateVolumeAndArea(5);
 
 function getCoupeNumber(seat) {
     if (seat < 0 || typeof(seat) !== "number" || !Number.isInteger(seat)) {
-        return "Ошибка. Проверьте правильность введенного номера места";
+        return "Error. Check if the seat number is entered correctly";
     } else if (seat === 0 || seat > 36) {
-        return "Таких мест в вагоне не существует";
+        return "There is no such seat";
     } else {
         let coupe = Math.ceil(seat / 4);
         return coupe;

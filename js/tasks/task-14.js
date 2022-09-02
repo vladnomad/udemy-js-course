@@ -5,7 +5,7 @@ const students = ['Peter', 'Andrew', 'Ann', 'Mark', 'Josh', 'Sandra', 'Chris', '
 function sortStudentsByGroups(arr) {
     arr.sort();
 
-    let str = "Оставшиеся студенты: ",
+    let str = "Students left: ",
         teams = [];
 
     for (let i = 0; i < arr.length; i++) {

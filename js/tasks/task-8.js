@@ -2,7 +2,7 @@
 
 function getTimeFromMinutes(time) {
     if (time < 0 || typeof(time) !== "number" || !Number.isInteger(time)) {
-        return "Ошибка, проверьте данные";
+        return "Error, check the data";
     }
 
     let hours = 0;
@@ -15,7 +15,8 @@ function getTimeFromMinutes(time) {
 
     const hLastDigitStr = String(hours).slice(-1);
     const hLastDigitNum = Number(hLastDigitStr);
-
+    
+    /*
     if (hLastDigitNum === 1 && hours !== 11) {
         hoursStr = "час";
     } else if (hLastDigitNum > 1 && hLastDigitNum < 5 && hours !== 12 && hours !== 13 && hours !== 14) {
@@ -24,7 +25,7 @@ function getTimeFromMinutes(time) {
         hoursStr = "часов";
     }
 
-/*     switch (hours) {
+    switch (hours) {
         case 0: 
             hoursStr = 'часов';
             break;
@@ -38,10 +39,7 @@ function getTimeFromMinutes(time) {
             break;
         default:
             hoursStr = 'часов';
-    } */
-
-    const mLastDigitStr = String(minutes).slice(-1);
-    const mLastDigitNum = Number(mLastDigitStr);
+    } 
 
     if (mLastDigitNum === 1 && minutes !== 11) {
         minutesStr = "минута";
@@ -50,8 +48,24 @@ function getTimeFromMinutes(time) {
     } else {
         minutesStr = "минут";
     }
+    */
 
-    return `Это ${hours} ${hoursStr} и ${minutes} ${minutesStr}`;
+    if (hLastDigitNum === 1) {
+        hoursStr = "hour";
+    } else {
+        hoursStr = "hours";
+    }
+
+    const mLastDigitStr = String(minutes).slice(-1);
+    const mLastDigitNum = Number(mLastDigitStr);
+
+    if (mLastDigitNum === 1) {
+        minutesStr = "minute";
+    } else {
+        minutesStr = "minutes";
+    }
+
+    return `This is ${hours} ${hoursStr} and ${minutes} ${minutesStr}`;
 }
 
 getTimeFromMinutes(10521);

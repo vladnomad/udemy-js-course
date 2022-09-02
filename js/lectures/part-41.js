@@ -1,35 +1,38 @@
-// 1) let x = 5; alert( x++ );
-5
+let x = 5; 
+alert( x++ ); 
+// 5
 
-// 2) [ ] + false - null + true;
-/* null */ NaN
+[ ] + false - null + true;
+// NaN 
 
-// 3) let y = 1; let x = y = 2; alert(x);
-2
+let y = 1; 
+let z = y = 2; 
+alert(z);
+// 2
 
-// 4) [ ] + 1 + 2;
-/* NaN */ "12"
+alert([ ] + 1 + 2);
+// "12"
 
-// 5) alert( "1"[0] );
-/* "10" */ "1" ? 1
+alert( "1"[0] );
+// 1
 
-// 6) 2 && 1 && null && 0 && undefined;
-null
+2 && 1 && null && 0 && undefined;
+// null
 
-// 7) !!( a && b ) и (a && b);
-/* true */ false
+!!( a && b ) == (a && b)
+// false
 
-// 8) alert( null || 2 && 3 || 4 );
-/* false */ 3
+alert( null || 2 && 3 || 4 );
+// 3
 
-// 9) a = [1, 2, 3]; b = [1, 2, 3]; a == b
-/* true */ false
+a = [1, 2, 3]; b = [1, 2, 3]; a == b
+// false
 
-// 10) alert( +"Infinity" );
-Infinity /* typeof(Number) */
+alert( +"Infinity" );
+// Infinity  *typeof(Number)
 
-// 11) "Ёжик" > "яблоко";
-false
+console.log("Pen" > "Ten");
+// false
 
-// 12) 0 || "" || 2 || undefined || true || falsе;
-2
+0 || "" || 2 || undefined || true || falsе;
+// 2

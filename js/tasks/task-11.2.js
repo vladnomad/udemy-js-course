@@ -5,7 +5,7 @@ let result = '';
 
 function reverse(str) {
     if (typeof str !== "string") {
-        return "Ошибка!";
+        return "Error!";
     }    
     for (let i = str.length - 1; i >= 0; i--) {
         result += str[i];
@@ -25,10 +25,10 @@ const baseCurrencies = ['USD', 'EUR'],
 
 function availableCurr(arr, missingCurr) {
     if (arr.length === 0) {
-        return "Нет доступных валют";
+        return "No available currency";
     }
 
-    let result = `Доступные валюты:\n`;
+    let result = `Available currencies:\n`;
     arr = arr.filter(element => element !== missingCurr);
 
     for (let i = 0; i < arr.length; i++) {

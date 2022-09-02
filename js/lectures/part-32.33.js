@@ -33,11 +33,11 @@ let counter = 0;
 for (let key in options) {
     if (typeof(options[key]) === "object") {
         for (let i in options[key]) {
-            console.log(`Свойство ${i} имеет значение ${options[key][i]}`);
+            console.log(`Property ${i} has a value of ${options[key][i]}`);
             counter++;
         }
     } else {
-        console.log(`Свойство ${key} имеет значение ${options[key]}`);
+        console.log(`Property ${key} has a value of ${options[key]}`);
         counter++;
     }
 }
@@ -58,7 +58,7 @@ console.log(arr);
 const arr = [0, 1, 2, 3, 6, 8];
 
 arr.forEach(function(item, i, arr) {
-    console.log(`${i}: ${item} внутри массива ${arr}`);
+    console.log(`${i}: ${item} inside the array ${arr}`);
 });
 
 for (let i = 0; i < arr.length; i++) {

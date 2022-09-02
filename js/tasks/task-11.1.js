@@ -7,9 +7,9 @@ let family1 = ['Peter', 'Ann', 'Alex', 'Linda'],
 
 function showFamily(arr) {
     if (arr.length === 0) {
-        return "Семья пуста";
+        return "There are nobody in the family";
     } else { 
-        let array = "Семья состоит из: " + arr,
+        let array = "Family consists of: " + arr,
             result = array.replace(/,/g, " ");
         return result;
     }
@@ -24,7 +24,7 @@ const family = ['Peter', 'Ann', 'Alex', 'Linda'];
 function showFamily(arr) {
     let str = '';
 
-    arr.length === 0 ? str = 'Семья пуста' : str = 'Семья состоит из: ';
+    arr.length === 0 ? str = 'There are nobody in the family' : str = 'Family consists of: ';
 
     arr.forEach(member => { str += `${member} `; });
 

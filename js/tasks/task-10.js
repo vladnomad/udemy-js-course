@@ -13,8 +13,8 @@ const personalPlanPeter = {
     },
     showAgeAndLangs(personalPlanPeter) {
         let arrayValue = Object.values(personalPlanPeter.skills.languages),
-            showAge = `Мне ${personalPlanPeter.age}`,
-            showLang = ` и я владею языками:`,
+            showAge = `I am ${personalPlanPeter.age} years old`,
+            showLang = ` and I speak:`,
             showStr = showAge + showLang;
         //  ` и я владею языками:`
         for (let i = 0; i <= arrayValue.length; i++) {
@@ -45,10 +45,10 @@ function showProgrammingLangs(personalPlanPeter) {
         if (arrayKey.length <= 0) {
             return result;
         } else if (i == arrayKey.length - 1) {
-            result += `Язык ${arrayKey[i]} изучен на ${arrayValue[i]}\n`;
+            result += `${arrayKey[i].toUpperCase()} learning progress is ${arrayValue[i]}\n`;
             return result;
         } else {
-            result += `Язык ${arrayKey[i]} изучен на ${arrayValue[i]}\n`;
+            result += `${arrayKey[i].toUpperCase()} learning progress is ${arrayValue[i]}\n`;
         }
     }
 }
