@@ -1,17 +1,17 @@
 ## [Full course on Javascript + React](https://www.udemy.com/course/javascript_full/) ![](https://geps.dev/progress/35)
-### :star::star::star::star::star: (13 376 ratings)
+### :star::star::star::star::star: (13 585 ratings)
 Course author: Ivan Petrichenko
 
     courseData {
         rating: 4.8,    
-        ratingCount: 13376,
-        students: 37798,
+        ratingCount: 13585,
+        students: 38413,
         language: russian,
         tests: 2,
         tasks: 55,
         lectures: 224,
         videoHoursTotal: 66.5
-        lastUpdate: 13.04.2022
+        lastUpdate: 08.2022
     }
 
 ### Description
@@ -24,9 +24,11 @@ The 2nd part of the course is about the most popular JavaScript-based library - 
 
 ### What's inside the course?
 
-    programming.basics && algorithms.basics && objectOrientedProgramming.basics;
+    programmingAndAlgorithms.basics && objectOrientedProgramming.basics;
 
-    jsConceptsAndPrinciples => (i > simplest && i <= complex) && learn();
+    if (jsConceptsAndPrinciples > simplest && jsConceptsAndPrinciples <= complex) {
+        learn();
+    }
 
     howTo(AJAX, JSON);
 
@@ -45,7 +47,7 @@ The 2nd part of the course is about the most popular JavaScript-based library - 
     }
 
     do {
-        useArchitecturalApproach
+        useArchitecturalApproach();
     } while (buildingWebApplications);
 
     howTo(Redux + integrateToApp);
