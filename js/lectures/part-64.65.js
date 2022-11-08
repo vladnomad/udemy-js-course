@@ -1,3 +1,5 @@
+"use strict";
+
 const btn = document.querySelector(".btn");
 let timerId,
     i = 0;
