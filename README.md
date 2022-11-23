@@ -4,8 +4,8 @@
     courseData {
         author: Ivan Petrichenko,
         rating: 4.8,    
-        ratingCount: 14090,
-        students: 39658,
+        ratingCount: 14239,
+        students: 40087,
         language: russian,
         tests: 2,
         tasks: 55,
@@ -18,7 +18,7 @@
 
 This course is aimed at learning JavaScript in detail and to immediately put it into practice. Each theoretical block ends with a test or a practice task, where you will create interactive web elements, an application, etc. Two main parts of the course are:
 
-![](https://geps.dev/progress/70)
+![](https://geps.dev/progress/80)
 Vanilla JavaScript (from basic concepts to advanced use cases)  
 
 ![](https://geps.dev/progress/0)
