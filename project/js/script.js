@@ -3,11 +3,11 @@
 document.addEventListener('DOMContentLoaded', () => {
     const movieDB = {
         movies: [
-            "Логан",
-            "Лига справедливости",
-            "Ла-ла лэнд",
-            "Шерлок",
-            "Скотт Пилигрим"
+            "BULLET TRAIN",
+            "SHAME",
+            "MIDSOMMAR",
+            "FOUR ROOMS",
+            "MULHOLLAND DRIVE"
         ]
     };
     
@@ -28,8 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const makeChanges = () => {
         menu.style.flexShrink = "0";
-        genre.textContent = "Драма";
-        bg.style.backgroundImage = `url("../project/img/bg.jpg")`;
+        genre.textContent = "ACTION";
+        bg.style.backgroundImage = `url("../project/img/bt.webp")`;
     };
 
     const sortArr = (arr) => {

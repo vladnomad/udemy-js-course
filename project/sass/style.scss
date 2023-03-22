@@ -84,8 +84,8 @@
     }
     &__bg {
         height: 360px;
-        background: url('../img/mars.webp') center (center / cover) no-repeat;
-        background-position: top;
+        background: url('../img/bt2.webp') center (center / cover) no-repeat;
+        background-position: 0 30%;
         padding: 107px 0 0 61px;
     }
     &__genre {
@@ -165,7 +165,7 @@
                 transform: translateY(-50%);
                 width: 20px;
                 height: 20px;
-                background: url('../icons/Star.svg') center (center / cover) no-repeat;
+                background: url('../icons/star.svg') center (center / cover) no-repeat;
             }
             &:before {
                 content: '';
