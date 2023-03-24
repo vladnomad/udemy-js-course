@@ -18,12 +18,10 @@ This course is aimed at learning JavaScript in detail and to immediately put it 
 
 Native JavaScript
 
-Progress:![](https://geps.dev/progress/100)
+Progress: ![](https://geps.dev/progress/100)
 
 
-[React course section repo](https://www.github.com/vladnomad/udemy-react-course/)
-
-(version 18, including Redux) 
+[React course section repo](https://www.github.com/vladnomad/udemy-react-course/) (version 18, including Redux) 
 
 ## What this course covers?
 
