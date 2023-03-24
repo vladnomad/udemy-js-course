@@ -15,22 +15,25 @@
 
 This course is aimed at learning JavaScript in detail and to immediately put it into practice. Each theoretical block ends with a test or a practice task, where you will create interactive web elements, an application, etc. Two main parts of the course are:
 
-![](https://geps.dev/progress/100)
 
 Vanilla JavaScript
 <br>
 (from basic concepts to advanced use cases)  
 
-![](https://geps.dev/progress/0)
+![](https://geps.dev/progress/100)
+
 
 React.js 
 <br>
 (version 18) with all the necessary technologies (including Redux) 
 
+![](https://geps.dev/progress/0)
+
 ## What this course covers?
 
     async function firstGrasp() {
-        const [programmingBasics, algorithmsBasics, oopBasics] = await Promise.all([
+        const [programmingBasics, algorithmsBasics, oopBasics] = 
+        await Promise.all([
             fetch('/programming'),
             fetch('/algorithms'),
             fetch('/oop')
@@ -47,7 +50,9 @@ React.js
         algorithms;
         oop;
     }).catch(error => {
-        throw new Error(`${error.name}: First grasp programming, algorithms and Object Oriented Programming basics to continue`);
+        throw new Error(`${error.name}: First grasp 
+        programming, algorithms and Object Oriented 
+        Programming basics to continue`);
     });
 
     //------------------------------------------------------
