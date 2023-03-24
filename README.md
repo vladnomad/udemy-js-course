@@ -17,15 +17,11 @@ This course is aimed at learning JavaScript in detail and to immediately put it 
 
 
 Vanilla JavaScript
-<br>
-(from basic concepts to advanced use cases)  
 
 ![](https://geps.dev/progress/100)
 
 
-React.js 
-<br>
-(version 18) with all the necessary technologies (including Redux) 
+React.js (version 18, including Redux) 
 
 ![](https://geps.dev/progress/0)
 
