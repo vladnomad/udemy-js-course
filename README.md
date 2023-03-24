@@ -16,14 +16,13 @@
 This course is aimed at learning JavaScript in detail and to immediately put it into practice. Each theoretical block ends with a test or a practice task, where you will create interactive web elements, an application, etc. Two main parts of the course are:
 
 
-Vanilla JavaScript
+Native JavaScript
 
 ![](https://geps.dev/progress/100)
 
 
-React.js (version 18, including Redux) 
-
-![](https://geps.dev/progress/0)
+React course section as a separate repo 
+(version 18, including Redux) - [udemy-react-course](https://www.github.com/vladnomad/udemy-react-course/) 
 
 ## What this course covers?
 
