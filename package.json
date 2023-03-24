@@ -15,7 +15,8 @@
     "@babel/polyfill": "^7.12.1",
     "es6-promise": "^4.2.8",
     "jquery": "^3.6.4",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "tiny-slider": "^2.9.4"
   },
   "browserslist": [
     "> 1%"
