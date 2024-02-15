@@ -2,15 +2,15 @@
 ### :star::star::star::star::star: (17,054 Ratings)
 
 ```javascript
-courseDetails {
-    author: Ivan Petrichenko,
+const courseDetails = {
+    author: "Ivan Petrichenko",
     rating: 4.7,    
-    ratingCount: 17 054,
-    students: 47 029,
+    ratingCount: 17054,
+    students: 47029,
     tests: 2,
     tasks: 55,
     lectures: 224,
-    videoHoursTotal: 67
+    videoHoursTotal: 67,
     lastUpdate: 10.2023
 }
 ```
